@@ -46,42 +46,6 @@ The chatbot can answer questions regarding:
 * Donation information
 * Organizational impact
 
-### Volunteer Registration Workflow
-
-Users interested in volunteering can complete a guided registration process.
-
-The workflow collects:
-
-* Full Name
-* Email Address
-* Preferred Volunteer Area
-
-This creates a structured onboarding experience for potential volunteers.
-
-### Internship Recommendation Workflow
-
-The assistant provides personalized internship recommendations based on:
-
-* Interest Area
-
-  * Artificial Intelligence
-  * Programming
-  * Web Development
-  * Data Analytics
-  * Design
-
-* Experience Level
-
-  * Beginner
-  * Intermediate
-  * Advanced
-
-Recommendations are generated dynamically and presented in a user-friendly format.
-
-### Personalized Responses
-
-The chatbot stores user information during workflows and uses it to generate contextual responses.
-
 ### Interactive User Experience
 
 * Quick reply buttons
@@ -118,34 +82,34 @@ Contains official information related to:
 
 ---
 
-## Workflow Architecture
+## Workflow Architecture (I FACED MANY ISSUES TRYING TO ADD THIS AND CURRENTLY THE LIVE LINK DOESN'T HAVE THIS WORKFLOWS INTEGRATED BUT THIS IS WHAT I WANTED TO ADD ON LATER!!)
 
 ### Volunteer Registration
 
 User Intent
-↓
+->
 Volunteer Registration Workflow
-↓
+->
 Collect Name
-↓
+->
 Collect Email
-↓
+->
 Collect Volunteer Interest
-↓
+->
 Confirmation
 
 ### Internship Recommendation
 
 User Intent
-↓
+->
 Internship Recommendation Workflow
-↓
+->
 Select Interest Area
-↓
+->
 Select Experience Level
-↓
+->
 Generate Recommendations
-↓
+->
 Follow-Up Options
 
 ---
@@ -167,19 +131,6 @@ The chatbot improves visitor engagement by providing instant assistance and redu
 
 ---
 
-## Project Screenshots
-
-Add screenshots of:
-
-1. Home Screen
-2. Volunteer Registration Workflow
-3. Internship Recommendation Workflow
-4. Knowledge Base Q&A Responses
-
----
-
-## Author
-
 Developed as part of an AI Agent Development Project using Botpress.
 
-Created by: [Your Name]
+Created by: UNNATI SINGH THAKUR
