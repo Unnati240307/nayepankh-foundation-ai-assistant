@@ -1,136 +1,59 @@
-# NayePankh Foundation AI Assistant
+# NayePankh Support Agent
+
+An AI-powered support assistant built using Botpress for NayePankh Foundation.
 
 ## Overview
 
-NayePankh Foundation AI Assistant is an AI-powered chatbot developed using Botpress to enhance visitor engagement and streamline access to information about NayePankh Foundation. The assistant serves as a digital representative of the organization, helping users learn about the foundation's mission, initiatives, impact, volunteering opportunities, and internship programs.
+The NayePankh Support Agent helps website visitors learn about the foundation's mission, initiatives, volunteering opportunities, donation programs, and internship opportunities through a conversational AI experience.
 
-The chatbot leverages a Knowledge Base (RAG - Retrieval Augmented Generation) to provide accurate responses based exclusively on verified organizational information.
+The chatbot uses a Knowledge Base (RAG) approach to provide accurate responses based on verified organizational information and includes workflow automation for volunteer registration and internship recommendations.
 
----
+## Features
 
-## Problem Statement
+* Knowledge Base powered responses
+* Volunteer Registration Workflow
+* Internship Recommendation Workflow
+* Personalized recommendations
+* Interactive conversation flows
+* User data collection and validation
+* Quick reply buttons and guided navigation
 
-Visitors to NGO websites often struggle to quickly find relevant information regarding volunteering opportunities, internships, donation processes, organizational impact, and ongoing initiatives.
-
-This project aims to provide an intelligent conversational interface that:
-
-* Improves accessibility to information
-* Reduces navigation effort
-* Enhances user engagement
-* Simplifies volunteer and internship onboarding
-
----
-
-## Objectives
-
-* Build an AI-powered assistant for NayePankh Foundation.
-* Provide accurate responses using a verified knowledge base.
-* Guide visitors through volunteering opportunities.
-* Recommend internships based on user interests and experience levels.
-* Improve user interaction through conversational workflows.
-
----
-
-## Key Features
-
-### Knowledge Base Assistant
-
-The chatbot can answer questions regarding:
-
-* Foundation overview
-* Mission and vision
-* Social initiatives
-* Educational support programs
-* Food distribution campaigns
-* Women hygiene awareness initiatives
-* Donation information
-* Organizational impact
-
-### Interactive User Experience
-
-* Quick reply buttons
-* Guided conversation flows
-* Structured information cards
-* Context-aware responses
-
----
-
-## Technologies Used
-
-### Botpress Cloud
-
-Used for:
-
-* Workflow automation
-* Conversational design
-* Variable management
-* AI orchestration
-
-### Retrieval-Augmented Generation (RAG)
-
-Used to ensure that responses are generated only from verified organizational knowledge.
-
-### Knowledge Base
-
-Contains official information related to:
-
-* Foundation activities
-* Volunteer information
-* Internship opportunities
-* Contact details
-* Impact statistics
-
----
-
-## Workflow Architecture (I FACED MANY ISSUES TRYING TO ADD THIS AND CURRENTLY THE LIVE LINK DOESN'T HAVE THIS WORKFLOWS INTEGRATED BUT THIS IS WHAT I WANTED TO ADD ON LATER!!)
+## Workflows
 
 ### Volunteer Registration
 
-User Intent
-->
-Volunteer Registration Workflow
-->
-Collect Name
-->
-Collect Email
-->
-Collect Volunteer Interest
-->
-Confirmation
+Collects:
+
+* Full Name
+* Email Address
+* Volunteer Interest Area
 
 ### Internship Recommendation
 
-User Intent
-->
-Internship Recommendation Workflow
-->
-Select Interest Area
-->
-Select Experience Level
-->
-Generate Recommendations
-->
-Follow-Up Options
+Collects:
 
----
+* Interest Domain
+* Experience Level
 
-## Impact
+Provides personalized internship recommendations based on user selections.
 
-The chatbot improves visitor engagement by providing instant assistance and reducing the effort required to locate important information. It also creates a smoother onboarding process for prospective volunteers and interns.
+## Repository Structure
 
----
+* docs/ → Architecture documentation and screenshots
+* workflows/ → Workflow descriptions
+* prompts/ → Bot instructions and AI behavior
+* knowledge-base/ → Knowledge source information
 
-## Future Enhancements
+## Technologies Used
 
-* Integration with Google Forms
-* Volunteer database management
-* Internship application tracking
-* Multi-language support
-* Email notifications
-* Analytics dashboard
+* Botpress Cloud
+* Retrieval Augmented Generation (RAG)
+* Knowledge Bases
+* Workflow Automation
+* Conversational AI
 
----
+## Author
 
-Developed as part of an AI Agent Development Project using Botpress.
+Unnati Thakur
 
-Created by: UNNATI SINGH THAKUR
+Developed as part of the NayePankh Foundation AI Agent Assessment Project.
